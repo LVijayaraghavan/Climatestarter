@@ -8,27 +8,27 @@ Following exploration and analysis are done
 ## Understanding and Exploring  the tables
 
 * Using sqlchemy.inspect(), we will understand
-      Tables in the sqlite database
-      columns of each table along with their data types
-      Using func.min() and func.max() functions with sqlalchemy, we will derive
-      Start date of the climate data and end date of the climate data
-      Ddate that is exactly a year previous to the end date within the climate data
+      ..* Tables in the sqlite database
+      ..* columns of each table along with their data types
+      ..* Using func.min() and func.max() functions with sqlalchemy, we will derive
+      ..* Start date of the climate data and end date of the climate data
+      ..* Ddate that is exactly a year previous to the end date within the climate data
 
 ## Precipitation Analysis 
-Using a query to retrieve the last 12 months of precipitation data. 
-Use Pandas to print the summary statistics for the precipitation data.
+ ..* Using a query to retrieve the last 12 months of precipitation data. 
+ ..* Use Pandas to print the summary statistics for the precipitation data.
 
 ## Station Analysis
 
-Build queries using Sqlalchemy to find the following:
-Total number of stations
-Most active stations
-List the stations and onservation counts in descending order
-Design a query to retrieve the last 12 months of temperature observation data (tobs).
+..* Build queries using Sqlalchemy to find the following:
+..* Total number of stations
+..* Most active stations
+..* List the stations and onservation counts in descending order
+..* Design a query to retrieve the last 12 months of temperature observation data (tobs).
 
-  * Filter by the station with the highest number of observations.
+      * Filter by the station with the highest number of observations.
 
-  * Plot the results as a histogram with `bins=12`.
+      * Plot the results as a histogram with `bins=12`.
 
 ## Temperature Analysis
 
