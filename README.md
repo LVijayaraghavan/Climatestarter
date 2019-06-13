@@ -8,11 +8,11 @@ Following exploration and analysis are done
 ## Understanding and Exploring  the tables
 
 * Using sqlchemy.inspect(), we will understand
-      ..* Tables in the sqlite database
-      ..* columns of each table along with their data types
-      ..* Using func.min() and func.max() functions with sqlalchemy, we will derive
-      ..* Start date of the climate data and end date of the climate data
-      ..* Ddate that is exactly a year previous to the end date within the climate data
+      - Tables in the sqlite database
+     - columns of each table along with their data types
+      - Using func.min() and func.max() functions with sqlalchemy, we will derive
+     - Start date of the climate data and end date of the climate data
+    - Ddate that is exactly a year previous to the end date within the climate data
 
 ## Precipitation Analysis 
  ..* Using a query to retrieve the last 12 months of precipitation data. 
