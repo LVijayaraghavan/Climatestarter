@@ -15,34 +15,31 @@ Following exploration and analysis are done
      - Ddate that is exactly a year previous to the end date within the climate data
 
 ## Precipitation Analysis 
- ..* Using a query to retrieve the last 12 months of precipitation data. 
- ..* Use Pandas to print the summary statistics for the precipitation data.
+ - Using a query to retrieve the last 12 months of precipitation data. 
+ - Use Pandas to print the summary statistics for the precipitation data.
 
 ## Station Analysis
 
-..* Build queries using Sqlalchemy to find the following:
-..* Total number of stations
-..* Most active stations
-..* List the stations and onservation counts in descending order
-..* Design a query to retrieve the last 12 months of temperature observation data (tobs).
-
-      * Filter by the station with the highest number of observations.
-
-      * Plot the results as a histogram with `bins=12`.
+- Build queries using Sqlalchemy to find the following:
+- Total number of stations
+- Most active stations
+- List the stations and onservation counts in descending order
+- Design a query to retrieve the last 12 months of temperature observation data (tobs).
+- Filter by the station with the highest number of observations.
+- Plot the results as a histogram with `bins=12`.
 
 ## Temperature Analysis
 
-Find the minimum, average and maximum temperature for dates same as trip planned dates 
+- Find the minimum, average and maximum temperature for dates same as trip planned dates 
 but a previous year
-Plot the min, avg, and max temperature from your previous query as a bar chart.
-with average temperature as the bar height.
-and peak-to-peak (tmax-tmin) value as the y error bar (yerr)
-temperature during vacation
-Calculate the rainfall per weather station using the previous year's matching dates.
+- Plot the min, avg, and max temperature from your previous query as a bar chart.
+   with average temperature as the bar height and peak-to-peak (tmax-tmin) value as the y error bar (yerr)
+- temperature during vacation
+- Calculate the rainfall per weather station using the previous year's matching dates.
 
-Calculate the daily normals. Normals are the averages for the min, avg, and max temperatures
+- Calculate the daily normals. Normals are the averages for the min, avg, and max temperatures
 
-Create a list of dates for your trip in the format %m-%d. Use the daily_normals function to calculate the normals for each date string and append the results to a list.
+- Create a list of dates for your trip in the format %m-%d. Use the daily_normals function to calculate the normals for each date string    and append the results to a list.
 Use Pandas to plot an area plot (stacked=False) for the daily normals.
 plot is Area Plot of temperature changes
 
